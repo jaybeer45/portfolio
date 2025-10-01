@@ -48,17 +48,17 @@ const Work = ({ isDarkMode }) => {
           >
             <div
               className="bg-white w-10/12 absolute rounded-md bottom-5 left-1/2 -translate-x-1/2 
-                  py-3 px-4 flex items-center justify-between duration-500 group-hover:bottom-7"
+                  py-3 px-3 flex items-center justify-between duration-500 group-hover:bottom-7"
             >
               <div>
                 <h2 className="font-bold ">{project.title}</h2>
                 <p className="text-sm text-gray-600">{project.description}</p>
-             <div className="flex gap-3 ">
+             <div className="flex gap-4  ">
                   <a
                   href={project.projectLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm"
+                  className="text-[12px]"
                 >
                   View Project
                 </a>
@@ -66,7 +66,7 @@ const Work = ({ isDarkMode }) => {
                   href={project.codeLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm"
+                  className="text-[12px] "
                 >
                   View Code
                 </a>

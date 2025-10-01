@@ -122,7 +122,7 @@ export const workData = [
         title: 'Personal Portfolio',
         description: 'My personal portfolio site',
         bgImage: '/work-3.png',
-        projectLink: 'https://portfolio-lemon-seven-55.vercel.app/',
+        projectLink: 'jaybeer-singh-portfolio.vercel.app/',
         codeLink: 'https://github.com/jaybeer45/portfolio.git',
     },
     {

@@ -122,8 +122,8 @@ export const workData = [
         title: 'Personal Portfolio',
         description: 'My personal portfolio site',
         bgImage: '/work-3.png',
-        projectLink: 'https://portfolio.example.com',
-        codeLink: 'https://github.com/username/portfolio',
+        projectLink: 'https://portfolio-lemon-seven-55.vercel.app/',
+        codeLink: 'https://github.com/jaybeer45/portfolio.git',
     },
     {
         title: 'E-Commerce Site',

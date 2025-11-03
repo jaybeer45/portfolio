@@ -34,7 +34,7 @@ import graphics_icon from './graphics-icon.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import api_icon from './api-icon.png';
-import db_icon from './db-icon.png'
+import db_icon from './db-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
@@ -47,7 +47,6 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
-    
     figma,
     git,
     mongodb,
@@ -80,29 +79,6 @@ export const assets = {
     right_arrow_bold_dark
 };
 
-// export const workData = [
-//     {
-//         title: 'Frontend project',
-//         description: 'Web Design',
-//         bgImage: '/work-1.png',
-//     },
-//     {
-//         title: 'Geo based app',
-//         description: 'Mobile App',
-//         bgImage: '/work-2.png',
-//     },
-//     {
-//         title: 'Photography site',
-//         description: 'Web Design',
-//         bgImage: '/work-3.png',
-//     },
-//     {
-//         title: 'UI/UX designing',
-//         description: 'UI/UX Design',
-//         bgImage: '/work-4.png',
-//     },
-// ]
-
 export const workData = [
     {
         title: 'Spotify Clone',
@@ -113,7 +89,7 @@ export const workData = [
     },
     {
         title: 'Password Manager',
-        description: 'Password Manager site for save password ',
+        description: 'Password Manager site for save password',
         bgImage: '/work-2.png',
         projectLink: 'https://passowrd-manager-1.onrender.com',
         codeLink: 'https://github.com/jaybeer45/passowrd-manager.git',
@@ -122,11 +98,7 @@ export const workData = [
         title: 'Personal Portfolio',
         description: 'My personal portfolio site',
         bgImage: '/work-3.png',
-<<<<<<< HEAD
-        projectLink: 'https://portfolio-lemon-seven-55.vercel.app/',
-=======
         projectLink: 'https://jaybeer-singh-portfolio.vercel.app/',
->>>>>>> 430f59d331afa4e444d1ecf4fe663c20805fb2dd
         codeLink: 'https://github.com/jaybeer45/portfolio.git',
     },
     {
@@ -138,23 +110,19 @@ export const workData = [
     },
 ];
 
-
-
-
-
 export const serviceData = [
   { icon: assets.web_icon, title: 'Web Development', description: 'Building fast, responsive, and scalable websites using MERN stack.', link: '' },
   { icon: assets.ui_icon, title: 'UI/UX Design', description: 'Designing clean and user-friendly interfaces for better engagement.', link: '' },
   { icon: assets.api_icon, title: 'API Development', description: 'Creating and integrating RESTful APIs for seamless connectivity.', link: '' },
-  { icon: assets.db_icon, title: 'Database Management', description: 'Efficient data modeling and management with MongoDB .', link: '' },
+  { icon: assets.db_icon, title: 'Database Management', description: 'Efficient data modeling and management with MongoDB.', link: '' },
 ];
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'pursuing BA 2nd Year  from (Uttarakhand Open University)' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js, Next Js' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Pursuing BA 2nd Year from (Uttarakhand Open University)' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, , assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.mongodb, assets.figma, assets.git
 ];

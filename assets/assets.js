@@ -81,10 +81,10 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Spotify Clone',
-        description: 'Music streaming app clone',
+        title: 'Weather-App',
+        description: 'Real Time Weather App ',
         bgImage: '/work-1.png',
-        projectLink: 'https://e-commerece-site-frontend.onrender.com/',
+        projectLink: 'https://weather-app-5ire.vercel.app/',
         codeLink: 'https://github.com/jaybeer45/e-commerece-site.git',
     },
     {

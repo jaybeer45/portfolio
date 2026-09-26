@@ -8,6 +8,8 @@ import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
 
 import figma from './figma.png';
+import postman from "./postman.png";
+import github from "./github.png";
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
@@ -37,6 +39,8 @@ import api_icon from './api-icon.png';
 import db_icon from './db-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import payment_icon from './payment_icon.png'
+import backend_icon from './backend_icon.png'
 
 export const assets = {
     user_image,
@@ -48,8 +52,12 @@ export const assets = {
     project_icon_dark,
     vscode,
     figma,
+    github,
+    postman,
     git,
     mongodb,
+    backend_icon,
+    payment_icon,
     right_arrow_white,
     logo,
     logo_dark,
@@ -79,42 +87,70 @@ export const assets = {
     right_arrow_bold_dark
 };
 
-export const workData = [
+ export const workData = [
     {
-        title: 'Weather-App',
-        description: 'Real Time Weather App ',
-        bgImage: '/work-1.png',
-        projectLink: 'https://weather-app-5ire.vercel.app/',
-        codeLink: 'https://github.com/jaybeer45/e-commerece-site.git',
+        title: 'Sanskaar',
+        description: 'Event booking platform with a vendor marketplace — payments, chat, disputes & payouts',
+        bgImage: '/work-sanskaar.png',
+        techStack: ['React', 'Node.js', 'MongoDB', 'Razorpay'],
+        projectLink: 'https://sanskaar-events-frontend.vercel.app/',
+        codeLink: 'https://github.com/jaybeer45/sanskaar-events',
     },
     {
-        title: 'Password Manager',
-        description: 'Password Manager site for save password',
+        title: 'QuickGPT',
+        description: 'AI-powered chat application with real-time OpenAI-based responses',
         bgImage: '/work-2.png',
-        projectLink: 'https://passowrd-manager-1.onrender.com',
-        codeLink: 'https://github.com/jaybeer45/passowrd-manager.git',
-    },
-    {
-        title: 'Personal Portfolio',
-        description: 'My personal portfolio site',
-        bgImage: '/work-3.png',
-        projectLink: 'https://jaybeer-singh-portfolio.vercel.app/',
-        codeLink: 'https://github.com/jaybeer45/portfolio.git',
+        techStack: ['React', 'Node.js', 'MongoDB', 'OpenAI API'],
+        projectLink: 'https://quickgpt-hazel.vercel.app/',
+        codeLink: 'https://github.com/jaybeer45/quickgpt',
     },
     {
         title: 'E-Commerce Site',
-        description: 'Online store with cart & payments',
+        description: 'Online store with cart, checkout & secure payments',
         bgImage: '/work-4.png',
+        techStack: ['React', 'Node.js', 'MongoDB', 'Razorpay'],
         projectLink: 'https://e-commerece-site-frontend.onrender.com/',
-        codeLink: 'https://github.com/jaybeer45/e-commerece-site.git',
+        codeLink: 'https://github.com/jaybeer45/e-commerece-site',
+    },
+    { title: 'Personal Portfolio',
+     description: 'My personal portfolio site',
+     techStack: ['React', 'Node.js', 'MongoDB', 'Razorpay'],
+     bgImage: '/work-3.png',
+     projectLink: 'https://jaybeer-singh-portfolio.vercel.app/',
+     codeLink: 'https://github.com/jaybeer45/portfolio.git',
     },
 ];
 
+
+    
+
+
 export const serviceData = [
-  { icon: assets.web_icon, title: 'Web Development', description: 'Building fast, responsive, and scalable websites using MERN stack.', link: '' },
-  { icon: assets.ui_icon, title: 'UI/UX Design', description: 'Designing clean and user-friendly interfaces for better engagement.', link: '' },
-  { icon: assets.api_icon, title: 'API Development', description: 'Creating and integrating RESTful APIs for seamless connectivity.', link: '' },
-  { icon: assets.db_icon, title: 'Database Management', description: 'Efficient data modeling and management with MongoDB.', link: '' },
+  {
+    icon: assets.web_icon,
+    title: "Web Development",
+    description:
+      "Building responsive and scalable web applications using the MERN stack.",
+    link: "#contact",
+  },
+  {
+    icon: assets.api_icon,
+    title: "API Development",
+    description: "Building secure and reliable RESTful APIs for seamless data integration.",
+    link: "#contact",
+  },
+  {
+    icon: assets.backend_icon,
+    title: "Backend Development",
+    description: "Developing robust backends with Node.js, Express.js, MongoDB, and authentication.",
+    link: "#contact",
+  },
+  {
+    icon: assets.payment_icon,
+    title: "Payment Integration",
+    description: "Integrating secure online payments using gateways like Razorpay.",
+    link: "#contact",
+  },
 ];
 
 export const infoList = [
@@ -122,7 +158,10 @@ export const infoList = [
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Pursuing BA 2nd Year from (Uttarakhand Open University)' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
-
 export const toolsData = [
-    assets.vscode, assets.mongodb, assets.figma, assets.git
+  { icon: assets.vscode, name: "VS Code" },
+  { icon: assets.github, name: "GitHub" },
+  { icon: assets.git, name: "Git" },
+  { icon: assets.postman, name: "Postman" },
+  { icon: assets.mongodb, name: "MongoDB" },
 ];

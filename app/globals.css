@@ -1,22 +1,26 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-accent: #2F6FED;
+  --color-accent-soft: #EAF1FE;
+  --color-dark-hover: #141B29;
+  --color-dark-theme: #111827;
+}
 * {
   font-family: Outfit, sans-serif;
-  
-}
-.dark{
-  background-color: #11001F;
- color: white;
 }
 
+ @layer {
+  body {
+  background-color: #FAFAF7;
+  color: #0B0E14;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 
-
-
-
-
-
-
-
-
-
-
+.dark body {
+  background-color: #111827;
+  color: #F2F1ED;
+}
+ }
